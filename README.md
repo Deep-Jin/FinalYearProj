@@ -26,7 +26,20 @@ git clone https://github.com/your-github-username/your-repo-name.git
 cd your-repo-name
 npm install
 
-## To Run the Project use following commands:
-npm compile
-npx hardhat run scripts/deploy.js --network <network-name>
-npm run dev
+##Packages Required:
+```js
+    npm install @nomicfoundation/hardhat-toolbox
+    npm install @nomiclabs/hardhat-ethers
+    npm install @nomiclabs/hardhat-waffle
+    npm install ethereum-waffle
+    npm install ethers
+    npm install hardhat
+```
+
+## To Run the Project use following steps:
+- npm init -y
+- npm i hardhat
+- npx hardhat
+- npm compile
+- npx hardhat run scripts/deploy.js --network <network-name>
+- npm run dev
