@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Sdeep\\Desktop\\Decentralised-Storage-Project\\Contracts\\Drive.sol": {
+      "lastModificationDate": 1710774209369,
+      "contentHash": "41b9d9dccb3f23bb52aa70df018d4c40",
+      "sourceName": "Contracts/Drive.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0 <=0.9.0"
+      ],
+      "artifacts": [
+        "Drive"
+      ]
+    }
+  }
+}
